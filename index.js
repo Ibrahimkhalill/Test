@@ -37,7 +37,7 @@
 const { Server } = require("socket.io");
 const io = new Server(7000, {
   cors: {
-    origin: "http://localhost:5173", // Replace with your frontend's URL
+    origin: "https://ephemeral-daifuku-bee2ab.netlify.app", // Replace with your frontend's URL
     methods: ["GET", "POST"],
   },
 });
